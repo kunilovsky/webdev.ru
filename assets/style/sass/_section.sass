@@ -1,0 +1,29 @@
+h1
+    color: $ellouH1 !important
+@media (min-width: 1366px) and (max-width: 2580px)
+    .animation
+        &__start
+            height: 600px !important
+            width: 600px !important
+@media (min-width: 1025px)
+    .animation
+        &__start
+            height: 450px
+            width: 450px
+    .targetMain
+        &__mob
+            display: none
+.target
+    &__btn
+        padding: 10px
+        font-weight: 600
+        font-size: 25px
+        margin-right: auto  
+        margin-left: auto
+        background: $targetGreen !important
+        transition: .3s
+.target
+    &__btn:hover
+        background: $tagetGreenHover !important
+        transform: scale(1.1)
+        

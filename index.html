@@ -1,20 +1,85 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title</title>
-    <link rel="stylesheet" href="assets/font/font.css">
-    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/style/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/font/font.css" />
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+  </head>
+  <body>
     <!-- Header -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ProgDev</a>
+          <a class="nav-link targetMain__mob" href="#">Начать проект</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuButton"
+            aria-controls="menuButton"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuButton">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Как проходит работа</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link targetMain" href="#">Начать проект</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- /Header -->
     <!-- Main -->
+    <main>
+      <section>
+        <div class="container mt-3 mt-lg-5">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <h1>
+                Разработка сайтов, интернет магазинов <br> и мобильных приложений
+              </h1>
+              <h2 class="mt-3 mt-sm-5">
+                Предлагаем решения под ключ, доработку и поддержку существующих
+                проектов под любой бюджет
+              </h2>
+              <button class="btn mt-3 mt-me-5 target__btn">
+                  Это дорого ?
+              </button>
+            </div>
+            <div class="col-lg-6">
+              <lottie-player
+                class="animation__start"
+                src="assets/json/1.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- /Main -->
     <!-- Footer -->
     <!-- /Footer -->
-</body>
+
+    <!-- Script -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lottie-player.js"></script>
+  </body>
 </html>
