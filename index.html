@@ -3,173 +3,156 @@
     Powered by kunilovsky.ru
  -->
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Title</title>
-    <link rel="stylesheet" href="assets/font/main.css" />
-    <link rel="stylesheet" href="assets/style/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/style/style.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">ProgDev</a>
-          <button class="btn nav-link targetMain__mob" href="#">Начать проект</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#menuButton"
-            aria-controls="menuButton"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Title</title>
+  <link rel="stylesheet" href="assets/font/main.css" />
+  <link rel="stylesheet" href="assets/style/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ProgDev</a>
+        <button class="btn nav-link targetMain__mob" type="button" data-bs-toggle="modal"
+          data-bs-target="#targetMain">Начать проект</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuButton"
+            aria-controls="menuButton" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="menuButton">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"></a>
-                  &#128075; Как проходит работа</a
-                >
+                &#128075; Как проходит работа</a>
               </li>
               <li class="nav-item">
-                <button class=" btn nav-link targetMain" type="button" data-bs-toggle="modal" data-bs-target="#targetMain" href="#">
+                <button class=" btn nav-link targetMain" type="button" data-bs-toggle="modal"
+                  data-bs-target="#targetMain" href="#">
                   &#128104;&#8205;&#128187; Начать проект
-                  &#128105;&#8205;&#128187;</a
-                >
+                  &#128105;&#8205;&#128187;</button>
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </header>
-    <!-- /Header -->
-    <!-- Main -->
-    <main>
-      <section>
-        <div class="container mt-3 mt-lg-5">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <h1>
-                Разработка сайтов, <br />
-                интернет магазинов <br />
-                и мобильных приложений
-              </h1>
-              <h2 class="mt-3 mt-sm-5">
-                Предлагаем решения под ключ, доработку и поддержку существующих
-                проектов под любой бюджет
-              </h2>
-              <button
-                class="btn mt-3 mt-me-5 target__btn"
-                data-bs-toggle="modal"
-                data-bs-target="#target1"
-              >
-                Это дорого ?
-              </button>
-            </div>
-            <div class="col-lg-6">
-              <lottie-player
-                class="animation__start"
-                src="assets/json/1.json"
-                background="transparent"
-                speed="1"
-                loop
-                autoplay
-              ></lottie-player>
-            </div>
+      </div>
+    </nav>
+  </header>
+  <!-- /Header -->
+  <!-- Main -->
+  <main>
+    <section>
+      <div class="container mt-3 mt-lg-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1>
+              Разработка сайтов <br />
+              Интернет магазинов <br />
+              Мобильных приложений
+            </h1>
+            <h2 class="mt-3 mt-sm-5">
+              Предлагаем разработку под ключ, доработку и поддержку существующих
+              проектов под любой бюджет
+            </h2>
+            <button class="btn mt-3 mt-me-5 target__btn" data-bs-toggle="modal" data-bs-target="#target1">
+              Это дорого ?
+            </button>
           </div>
-        </div>
-      </section>
-    </main>
-    <!-- /Main -->
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row text-sm-center text-lg-center">
-                <div class="col-lg-4">
-                    ProogDev ® 2022 <br>
-                    <p class="fw-light text-uppercase">
-                        ООО "САПЛ" <br>
-                    ИНН 7203523418
-                    </p>
-                    
-                </div>
-                <div class="col-lg-4 fw-light">
-                    <a href="">Политика конфиденциальности</a> 
-                    <br>
-                    <a href="">Реквизиты компании</a> <br>
-                    <a href="assets/img/mem.png" alt="Гарольд" target="_blank">&#128760;</a>
-                </div>
-                <div class="col-lg-4 fw-light text-decoration-none">
-                    <a href="">WhatsApp Business</a> <br>
-                    <a href="">+7(961)77-95-111</a> <br>
-                    <a href="">info@progdev.ru</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- /Footer -->
-    <!-- Modal -->
-    <div class="modal fade" id="targetMain" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog modal-fullscreen">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+          <div class="col-lg-6">
+            <lottie-player class="animation__start" src="assets/json/1.json" background="transparent" speed="1" loop
+              autoplay></lottie-player>
           </div>
         </div>
       </div>
+    </section>
+  </main>
+  <!-- /Main -->
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row text-sm-center text-lg-center">
+        <div class="col-lg-4">
+          ProogDev ® 2022 <br>
+          <p class="fw-light text-uppercase">
+            ООО "САПЛ" <br>
+            ИНН 7203523418
+          </p>
 
-    <div
-      class="modal fade"
-      id="target1"
-      tabindex="-1"
-      aria-labelledby="targetMain"
-      aria-hidden="true"
-    >
-      <div
-        class="modal-dialog modal-fullscreen modal-dialog-scrollable"
-      >
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">...</div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+        </div>
+        <div class="col-lg-4 fw-light">
+          <a href="" title="Политика конфиденциальности">Политика конфиденциальности</a>
+          <br>
+          <a href="" title="Реквизиты ООО САПЛ">Реквизиты компании</a> <br>
+          <a href="assets/img/mem.png" alt="Гарольд" target="_blank">&#128760;</a>
+        </div>
+        <div class="col-lg-4 fw-light text-decoration-none">
+          <a href="" title="Переход в чат WhatsApp">WhatsApp Business</a> <br>
+          <a href="" title="Осуществить звонок">+7(961)77-95-111</a> <br>
+          <a href="" title="Написать на почту">info@progdev.ru</a>
         </div>
       </div>
     </div>
-    <!-- /Modal -->
-    <!-- Script -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/lottie-player.js"></script>
-  </body>
+  </footer>
+  <!-- /Footer -->
+  <!-- Modal -->
+  <div class="modal fade" id="targetMain" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center w-100" id="exampleModalLabel">Как начать работу по проекту?</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-3">
+              <h2>1 Выберите способ связи</h2>
+              <hr>
+              <div>
+                <ul>
+                  <li>
+                    <a href="">7961</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="target1" tabindex="-1" aria-labelledby="targetMain" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Modal -->
+  <!-- Script -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/lottie-player.js"></script>
+</body>
+
 </html>
