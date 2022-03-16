@@ -15,7 +15,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">ProgDev</a>
-          <a class="nav-link targetMain__mob" href="#">Начать проект</a>
+          <button class="btn nav-link targetMain__mob" href="#">Начать проект</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -35,7 +35,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link targetMain" href="#">
+                <button class=" btn nav-link targetMain" type="button" data-bs-toggle="modal" data-bs-target="#targetMain" href="#">
                   &#128104;&#8205;&#128187; Начать проект
                   &#128105;&#8205;&#128187;</a
                 >
@@ -112,15 +112,33 @@
     </footer>
     <!-- /Footer -->
     <!-- Modal -->
+    <div class="modal fade" id="targetMain" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <div
       class="modal fade"
       id="target1"
       tabindex="-1"
-      aria-labelledby="exampleModalLabel"
+      aria-labelledby="targetMain"
       aria-hidden="true"
     >
       <div
-        class="modal-dialog modal-fullscreen-sm-down modal-dialog-scrollable"
+        class="modal-dialog modal-fullscreen modal-dialog-scrollable"
       >
         <div class="modal-content">
           <div class="modal-header">
