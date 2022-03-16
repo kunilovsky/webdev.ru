@@ -12,6 +12,15 @@ h2 {
   font-weight: 300;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
 header {
   background-color: #2e2e2e;
   padding: 15px 15px;
@@ -71,6 +80,10 @@ h1 {
   color: #dace22 !important;
 }
 
+h2 {
+  font-size: 22px;
+}
+
 @media (min-width: 1366px) and (max-width: 2580px) {
   .animation__start {
     height: 600px !important;
@@ -89,7 +102,7 @@ h1 {
 }
 
 .target__btn {
-  padding: 10px;
+  padding: 10px 40px;
   font-weight: 600;
   font-size: 25px;
   margin-right: auto;
