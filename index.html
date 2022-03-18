@@ -193,7 +193,7 @@
           </div>
           <div class="row mt-3">
             <div class="col-lg-6 offset-3">
-              <form>
+              <form id="main">
                 <div class="form-floating mb-3">
                   <input type="text" class="form-control" id="name" placeholder="Ваше имя">
                   <label for="floatingInput">Как вас зовут?</label>
@@ -203,7 +203,8 @@
                   <label for="floatingInput">Телефон, почта или соц. сеть</label>
                 </div>
                 <div class="form-floating mb-3">
-                  <textarea class="form-control mb-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <textarea class="form-control mb-3" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
                   <label for="floatingTextarea2">Напишите, если есть вопрос</label>
                 </div>
                 <span class="form__span">
@@ -225,17 +226,32 @@
     <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title text-center w-100" id="exampleModalLabel">Дорого - это понятие относительное! &#129400;
+          </h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-
+          <div class="row">
+            <h3>
+              Начнем с того, как определяеться стоимость разработки и из чего она складываеться:
+            </h3>
+            <h6>
+              1 Человеко-часы. Стоимость часа зависит от тех технологий, с которыми приходиться работать. Например, если
+              поступает заказ на разработку лендинга, то в объеме работ будет верстка на HTML/CSS/JS и стоимость часа
+              верстальщика &#129323; 700 руб. Если же это заказ на разработку веб-приложения (SPA), то задействуеться
+              уже Fronend разработчик со знанием сложных технологий и стоимость часа уже выростает до 1 500 руб.
+            </h6>
+            <h6>
+              2 Объем разработки. Да, элементарная математика: по Техническому заданию определяеться количество общих
+              часов, которые потребуються на выполнение работы. Также в сложных проектах задействуется по 3-4
+              разработчика разных областей.
+            </h6>
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-            Close
+            ОК, все понятно &#128076;
           </button>
-          <button type="button" class="btn btn-primary">Save changes</button>
         </div>
       </div>
     </div>
