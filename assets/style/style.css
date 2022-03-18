@@ -125,4 +125,13 @@ h2 {
 .btn-close {
   color: #dace22;
 }
+
+label {
+  color: #2e2e2e;
+}
+
+.form__span {
+  font-size: 10px;
+  color: #aaaaaa;
+}
 /*# sourceMappingURL=style.css.map */
