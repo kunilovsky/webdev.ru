@@ -119,7 +119,7 @@ h2 {
 }
 
 .modal-content {
-  background-color: #2e2e2e;
+  background: linear-gradient(329.5deg, rgba(32, 78, 198, 0.45) 8.16%, rgba(0, 0, 0, 0) 43.98%), linear-gradient(180deg, #393939 0%, #1D274E 100%);
 }
 
 .btn-close {
