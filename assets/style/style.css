@@ -1,6 +1,7 @@
 body {
   font-family: 'Jost', sans-serif;
-  background-color: #2e2e2e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#022029), to(#2B004D));
+  background: linear-gradient(180deg, #022029 0%, #2B004D 100%);
   color: #fff;
 }
 
@@ -22,7 +23,6 @@ a:hover {
 }
 
 header {
-  background-color: #2e2e2e;
   padding: 15px 15px;
 }
 
@@ -46,13 +46,19 @@ header {
   color: #000629 !important;
 }
 
+.z {
+  width: 30px;
+}
+
 @media (min-width: 300px) and (max-width: 425px) {
   h2 {
     font-size: 18px;
   }
   .animation__start {
-    height: 400px;
-    width: 400px;
+    height: 380px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .targetMain {
     margin-left: 0px !important;
@@ -64,8 +70,8 @@ header {
     width: 100%;
   }
   .target__btn:hover {
-    -webkit-transform: scale(1.05) !important;
-            transform: scale(1.05) !important;
+    -webkit-transform: scale(1.03) !important;
+            transform: scale(1.03) !important;
   }
 }
 
