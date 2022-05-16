@@ -13,6 +13,10 @@ h2 {
   font-weight: 300;
 }
 
+h3 {
+  font-weight: 300;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -54,6 +58,9 @@ header {
   h2 {
     font-size: 18px;
   }
+  h3 {
+    font-size: 18px;
+  }
   .animation__start {
     height: 380px;
     width: 380px;
@@ -72,6 +79,18 @@ header {
   .target__btn:hover {
     -webkit-transform: scale(1.03) !important;
             transform: scale(1.03) !important;
+  }
+  .price__item {
+    margin: 5px !important;
+  }
+  .price__item ul > li {
+    font-size: 14px;
+  }
+  .btn__googleForm {
+    width: 90% !important;
+  }
+  footer {
+    padding-bottom: 30px;
   }
 }
 
@@ -177,7 +196,37 @@ label {
 }
 
 .price__item {
+  color: #000629;
   border-radius: 10px;
   background: #e6e6e6;
+  padding: 20px;
+  margin: 15px;
+}
+
+.price__item ul > li {
+  font-weight: 300;
+  padding-top: 12px;
+}
+
+.btn__googleForm {
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 300;
+  background: #dace22;
+  color: #000629;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn__googleForm:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background: linear-gradient(248.66deg, #FF7222 0%, #FFEF61 100%);
+  color: #000629;
 }
 /*# sourceMappingURL=style.css.map */
